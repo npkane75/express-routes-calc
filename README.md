@@ -11,14 +11,11 @@ route | response
 `/multiply/:x/:y` | responds with x * y
 `/divide/:x/:y` | responds with x / y
 
-This is an example of a simple GET route with request parameters using express:
+Review the lesson on Express URL and Params to review how to
+- access route parameters in an Express route
+- send a response in Express route
 
-```javascript
-app.get('/:input', (req, res) => {
-  console.log("req.params: ", req.params)
-  res.send("Our parameter is " + req.params.input + ".");
-})
-```
+There is a tricky part to this. As a helpful tip, use `console.log` in your route to log out the result of adding/subtracting/multiplying/dividing before sending back the result in the response.
 
 ## Getting Started
 
