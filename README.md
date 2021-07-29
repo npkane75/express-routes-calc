@@ -15,7 +15,7 @@ Review the lesson on Express URL and Params to review how to
 - access route parameters in an Express route
 - send a response in Express route
 
-**Note:** There is a tricky part to this. As a helpful tip, use `console.log` in your route to log out the result of adding/subtracting/multiplying/dividing before sending back the result in the response.
+**Note:** There is a tricky part to this. As a helpful tip, use `console.log` in your route to log out the result of adding/subtracting/multiplying/dividing before sending back the result in the response. You may need to do some work with the values before sending the response.
 
 ## Getting Started
 
